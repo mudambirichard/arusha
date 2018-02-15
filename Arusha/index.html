@@ -11,18 +11,20 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
   </head>
   <body>
-  <nav class="navbar  navbar-default  navbar-fixed-top">
+  <nav class="navbar  navbar-inverse  navbar-fixed-top">
   <div class="container">
- 
-       <button type="button" class="navbar-toggle" 
+  <button type="button" class="navbar-toggle" 
         data-toggle="collapse"
         data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -37,7 +39,7 @@
              <li class="active"><a href="#"  >Guest</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle"
-                data-toggle="dropdown">Long in <b class="caret"></b>
+                data-toggle="dropdown">Contact us <b class="caret"></b>
                 <ul class="dropdown-menu">
                   <li class="dropdown-header">Find us at</li>
                   <li><a href="#">Kisumu</a></li>
@@ -51,71 +53,142 @@
          </div>
   </div>
   </nav>
- <div class="container">
- <div class="jumbotron text-centre">
- <h2>The Long a waited  is now back!!</h2>
- <p>Professor Dr Shatiq the long time herbalist with guaranted success in all areas</p>
- </div>
- </div>
+<!--===============SLIDES=============-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-
-<!--=========================infor===============================-->
- <div id="Mymodal" class="modal fade" role="dialog">
-   <div class="modal-dialog">
-     <div class="modal-content">
-        <div class="modal-header"> 
-        <button type="button" class="close" data-dismiss="modal">&times</button>
-        <h3 class="modal-tittle"> Modal Header</h3>
-        </div>
-         <div class="modal-body"> 
-         <P>NEVER SLOW YOUR SELF</P>
-         </div>
-          <div class="modal-footer"> 
-           <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-          </div>
-   </div>
-   </div>
-</div>
-  <!--===============SLIDES=============-->
- <div class="container">
-
- <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
-    <ol class="carousel-indicators">
-    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#mycarousel" data-slide-to="1"></li>
-    <li data-target="#mycarousel" data-slide-to="2"></li>
-    </ol>
-
-    <div class="carousel-inner">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
     <div class="item active">
-      <img src="image/H1.jpeg" width="200px" height="400px">
-      <div class="carousel-caption">
-        <h1>Theme 1</h1>
-      </div>
+      <img src=" image/ddd.jpeg" alt="Los Angeles" height="1900" width="1000">
     </div>
-     <div class="item ">
-      <img src="image/H2.jpeg" width="200px" height="400px">
-       <div class="carousel-caption">
-        <h1>Theme 2</h1>
-      </div>
-    </div>
-     <div class="item ">
-      <img src="image/H3.jpeg" width="200px" height="400px"  >
-       <div class="carousel-caption">
-        <h1>Theme 3</h1>
-      </div>
-    </div>
- </div>
- <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
- <span class=" glyphicon glyphicon-chevron-left"></span>
- </a>
 
-  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
- <span class=" glyphicon glyphicon-chevron-right"></span>
- </a>
- </div>
+    <div class="item">
+      <img src="image/s3.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="image/d1.jpeg" alt="New York" height="1900" width="1000" >
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+ <!---=========================rows  and columns===============-->
+  
+ <div class="row">
+<div class="col-md-3">
+<a href="#" class="thumbnail">
+  <img src="">
+</a>
+ <h3><b /><span style="color: black"/>Vision</h3>
+  <p> <b /> To Minimise wichcraft and prmote the use of herbs to heal those in need </p>
+  <button type=button class="btn btn-warning"><span class="glyphicon  glyphicon-heart"></span>click here</button>
+</div>
+
+<div class="row">
+<div class="col-md-2">
+<a href="#" class="thumbnail">
+  <img src="">
+</a>
+<h3><b /><span style="color: black"/>  Mission</h3>
+  <p><b />To Treat and solve problems that come to a stand still in our daily life </p>
+  <button type=button class="btn btn-success"><span class="glyphicon  glyphicon-plus"></span>click here</button>
+</div>
+
+<div class="row">
+<div class="col-md-4">
+<a href="#" class="thumbnail">
+
+</a>
+ <h3><b /><span style="color: black"/>  Objectives</h3>
+      <p><b />To Condemn and Destory bad practices like Human Sacrifices</p>
+      <p><b />  To fight illumination</p>
+       <p><b />  To unite Religious leaders with herberists</p>
+        <p><b />  To promote  a sustainable production of herbs</p>
+  <button type=button class="btn btn-success"><span class="glyphicon  glyphicon-envelope"></span>click here</button>
+</div>
+ <div class="row">
+<div class="col-md-2">
+<a href="#" class="thumbnail">
+  <img src="">
+</a>
+<h3><b /><span style="color: black"/>  Motto</h3>
+  <p><b /> To Emphasize, Maximise, and Teach the Benefits of Herbs </p>
+  <button type=button class="btn btn-warning"><span class="glyphicon  glyphicon-signal"></span>click here</button>
+</div> 
+ </div>  
  </div>
 
+ <!--=========================footer, links=================================-->
+
+
+     <div id="Footer">
+        <div class="container">
+        <div class="Footer-sub">
+        <h2><span style="color: white"/>Our story</h2>
+        <p>Job Promotion and opportunity, Clear misfortunes and clensen opportunitiesalso amathes grudges and alsoCourt cases<span><a href="#">Read more</a></span> .</p>
+        <button type=button class="btn btn-info">show all</button>
+        </div>
+
+        <div class="Footer-sub-2">
+        <center>
+            <h2><span style="color: white"/>Important Links</h2>
+            <ul>
+                <li><a href="#">Lost Love</a></li>
+                <li><a href="#">Business Boost</a></li>
+                <li><a href="#">Lucky Ring</a></li>
+                <li><a href="#">Man Power</a></li>
+                <li><a href="#">Impotency</a></li>
+                <li><a href="#">Troubled Marriage</a></li>
+                <li><a href="#">Court Cases</a></li>
+            </ul>
+               <button type=button class="btn btn-primary">click here</button>
+            </center>
+          
+
+            </div>
+        <div class="Footer-sub-2">
+        <center>
+            <h2><span style="color: white"/>Social Links</h2>
+            <ul>
+               <li><a href="#">Facebook</a></li>
+               <li><a href="#">Google+</a></li>
+               <li><a href="#">Youtube</a></li>
+               <li><a href="#">Twitter</a></li>
+               <li><a href="#">Linkdin</a></li>
+               <li><a href="#">Blogger</a></li>
+               <li><a href="#">Digg</a></li>
+            </ul>
+              <button type=button class="btn btn-success">click here</button>
+            </center>
+            </div>
+                <div class="Footer-sub-3">
+         <center>
+        <h2><span style="color: white"/>Subscribe us</h2>
+       <input type="text" name="subs" placeholder="Write your E-mail" class="subs"> 
+       <input  type="submit" name="submit-btn" value="Subscribe" class="subs-btn">
+       <p class="subs-p">Enter your E-mail id or get Notifications from us</p>
+        </center>  
+        </div>
+          </div>
+        </div>
+    </div>
 
 
 
@@ -126,7 +199,8 @@
    <nav class="navbar  navbar-inverse  navbar-fixed-bottom">
   <div class="container">
    <div class="navbar-text pull-left">
-  <p>Pliz dont wait for Tommorow better try him to avoid inconvieniences </p>
+  <p><b />Pliz dont wait for Tommorow better try him to avoid inconvieniences </p>
+
   </div>
   </div>
   </nav>
@@ -136,5 +210,6 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.c
   </body>
 </html>

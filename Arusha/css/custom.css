@@ -3,6 +3,98 @@ body{ padding-top: 15px;
       text-align: center;
       font-size: 15px;      
      font-family: verdana;
-
+  background-color:white;
+   
 
      }
+
+  #badge{ float: left; 
+
+        }
+
+
+#Footer{ width: 100%
+         height:auto;
+         background-color: #2e3951  ;   
+         float: none; 
+
+            }
+ .Footer-sub{width: 20%;
+ 	         float:left;
+ 	         color: black;
+                }
+ .Footer-sub-2{width: 25%;
+ 	          float:left;  
+
+               }
+ .Footer-sub-2 ul li{ list-style: none;
+
+                   } 
+   .Footer-sub-2 ul li a{  color: black;
+   	                       text-decoration: none;
+
+                          }
+  .Footer-sub-2 ul li a:hover{ color: white;
+                               text-decoration: underline;
+                               
+                               }
+  
+  .Footer-sub-3  {  width: 20%;
+ 	                float:right;      
+
+                         }         
+.subs{  width: 300px;
+        height: 50px;
+        border: none; 
+        border-radius: 10px;
+        float: left;
+        padding-left: 10px;  
+        background: #fff;
+
+           }
+.subs-btn {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: brown;
+    margin-left: -100px;
+    color: white
+         }
+.subs-p{  
+          color: white;
+          font-style: italic; 
+          font-size: 15px;
+           }
+
+ .col-md-3{
+ 	        
+           
+ 	        background-color: #1aaa1a;
+              padding-left: 10px;  
+             float:left;
+             border-radius: 10px;
+           width: 300px;
+             height: 50px;
+         }
+
+
+   .col-md-2{
+   	  background-color: #1aaa1a;
+              padding-left: 10px;  
+             float:left;
+             border-radius: 10px;
+             width: 300px;
+             height: 50px;
+             
+   }
+  .col-md-4{
+  	      background-color: #1aaa1a;
+              padding-left: 15px;
+               padding-right: : 10px; 
+             float:left;
+             border-radius: 10px;
+             border-height: 5px;
+           
+           
+  }
