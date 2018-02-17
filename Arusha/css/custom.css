@@ -3,7 +3,7 @@ body{ padding-top: 15px;
       text-align: center;
       font-size: 15px;      
       font-family: verdana;
-      background-color:#4B515D;
+      background-color:#64b5f6 ;
    
                }
 
@@ -54,7 +54,7 @@ body{ padding-top: 15px;
 
                          }         
     .col-md-3{
- 	            background-color:#929fba ;
+ 	            background-color: ;
               padding-left: 20px;  
               float:left;
               border-height: 5px; 
@@ -62,6 +62,10 @@ body{ padding-top: 15px;
               color: black 
               border-radius: 10px;
                }
+ .col-md-3 p:hover{ color: white;
+                     text-decoration: underline;
+                     font-size: 15px;
+                    }              
 
     .col-md-2{
    	          background-color: ;
@@ -74,27 +78,35 @@ body{ padding-top: 15px;
                 }
 
   .col-md-4{
-  	          background-color: #929fba  ;
+  	          background-color:  ;
               padding-left: 30px;
               float:left;
               border-height: 5px;
               border-radius: 10px;
                }
+.col-md-4 p:hover{ color: white;
+                     text-decoration: underline;
+                     font-size: 15px;
+                    }
 
   
   .musa{
   	    padding-top: 2em;
   	    padding-bottom: 3em;
-  	    background-color:#0d47a1;
+  	    background-color:;
         border-radius: 10px;
 
           }
 
 
-.col-md-2{ background-color: #929fba  ;
+.col-md-2{ background-color:  ;
            padding-bottom: 2em;
            border-radius: 10px;
             }
+  .col-md-2 p:hover{ color: white;
+                     text-decoration: underline;
+                     font-size: 15px;
+                    }
 
 
 
@@ -110,7 +122,7 @@ body{ padding-top: 15px;
 
             }
 
-  .das{ background-color: #3F729B;
+  .das{ background-color: #7986cb;
         padding-top: 1em;
         padding-bottom: 1em;
 
